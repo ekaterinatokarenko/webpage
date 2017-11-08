@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+* {
+    font-family: 'Roboto Slab', serif;
+}
+.information-about-James {
+    background-color: yellow;
+    width: 500px;
+    height: auto;
+    float: left;
+}
+.information-about-Anna {
+    background-color: pink;
+    width: 300px;
+    height: auto;
+    float: left;
+}
+.information-about-Mary {
+    background-color: pink;
+    width: 500px;
+    height: auto;
+    float: left;
+}
+.information-about-Billy {
+    background-color: yellow;
+    width: 500px;
+    height: auto;
+    float: left;
+}

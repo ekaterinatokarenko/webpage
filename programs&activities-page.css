@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+* {
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background-image: url(programs&activities-page-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center, 20% 80%;
+    background-origin: border-box;
+    background-size: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+header {
+    grid-column: 1/4; 
+}
