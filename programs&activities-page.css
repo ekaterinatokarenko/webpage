@@ -3,24 +3,23 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(programs&activities-page-background.jpg);
+
+    background-image: url(home-page-background.jpg);
+    background-position: center 50%;
     background-repeat: no-repeat;
-    background-position: center center, 20% 80%;
-    background-origin: border-box;
-    background-size: 100%; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-   
     max-width: 1200px;
     margin: 0 auto; 
+} 
+
+
+nav{
+    width: 1200px;
+    background-color: #298A08;
+    margin: 0;
+    padding: 20px;
+    border-width: 10px;
 }
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-}
-header {
-    grid-column: 1/4; 
+img  {
+  float: right;
+  margin: 0 0 1em 1em;
 }

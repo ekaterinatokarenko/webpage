@@ -2,6 +2,13 @@
 * {
     font-family: 'Roboto Slab', serif;
 }
+body {
+    background-image: url(home-page-background.jpg);
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
 .information-about-James {
     background-color: yellow;
     width: 500px;
@@ -10,7 +17,7 @@
 }
 .information-about-Anna {
     background-color: pink;
-    width: 300px;
+    width: 500px;
     height: auto;
     float: left;
 }

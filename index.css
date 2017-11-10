@@ -4,35 +4,53 @@
 }
 body {
     background-image: url(home-page-background.jpg);
-    background-position: center center, 20% 80%;
-    background-origin: border-box;
-    background-repeat: repeat;
+    background-position: center 50%;
+    background-repeat: no-repeat;
     max-width: 1200px;
     margin: 0 auto; 
 }
 h1 {
+    width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-width: 0px;
     color:black;
     background-color: blue;
+     display: flex;
+  justify-content:center;
+  
 }
 article {
-  width: 850px;
+  width: 400px;
   margin: 20px auto;
   padding: 20px;
   border-width: 10px;
 }
 nav{
-    width: 650px;
+    width: 1200px;
     background-color: #298A08;
-    margin: 20px auto;
+    margin: 0;
     padding: 20px;
     border-width: 10px;
 }
 aside {
-    color:black;
-    background-color: #9ACD32;
-    width: 550px;
-    margin: 20px auto;
-    padding: 20px;
-    border-width: 10px;
+  width: 150px;
+  margin: 20px auto;
+  padding: 20px;
+  border-width: 10px;
+  
+}
+.discount {
+  display: flex;
+  justify-content:center;
+}
+img  {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+p {
+    color: black;
+    background-color: orange;
+        display: block;
 }
 
