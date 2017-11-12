@@ -14,6 +14,7 @@ body {
     margin: 0 auto; 
 }
 
+
 #header {
     width: 1180px;
     height: 40px;
@@ -43,7 +44,7 @@ body {
     display: block; 
     position:absolute;
     left:190px;
-    top:130px;
+    top:120px;
 }
 #preschooler {
     position:absolute;
@@ -54,7 +55,7 @@ body {
     color: black;
     display: block; 
     position:absolute;
-    left:200px;
+    left:150px;
     top:380px;
 }
 #school-age-child {
@@ -63,11 +64,11 @@ body {
     top:140px;
 }
 #swim-for-school-age-children {
-     color: black;
+    color: black;
     display: block; 
     position:absolute;
-    right:160px;
-    top:130px;
+    right:130px;
+    top:120px;
 }
 #teenager {
      position:absolute;
@@ -78,25 +79,32 @@ body {
     color: black;
     display: block; 
     position:absolute;
-    right:200px;
+    right:165px;
     top:380px;
 }
 #adult {
     position:absolute;
-    right:500px;
+    right:535px;
     bottom:20px; 
+    
 }
 #private-classes {
    color: black;
     display: block; 
     position:absolute;
-    right: 550px;
-    bottom: 220px; 
+    right: 600px;
+    bottom: 210px; 
 }
 #logo {
    position:absolute;
-    right:520px;
+    right:560px;
     top:140px;  
+}
+a[href^="http"]{
+    color: blue;
+}
+a:visited {
+    color: red;
 }
 #footer {
     height: 25px;
@@ -111,7 +119,6 @@ body {
     font-size: 11pt;
     padding-top: 5px;
 }
-
 
 
 

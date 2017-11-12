@@ -56,8 +56,12 @@ body {
     right:250px;
     bottom:70px; 
 }
-
-  
+a[href^="http"]{
+    color: blue;
+}
+a:visited {
+    color: red;
+}
 #footer {
     height: 25px;
     color: black;

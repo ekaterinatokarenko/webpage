@@ -7,6 +7,8 @@ body {
     background-size:  1200px 800px;
     background-position: center 50%;
     background-repeat: no-repeat;
+    opacity: 2;
+    z-index: -1;
     background-color: #c7b39b;
     overflow: auto; /* Добавляем полосы прокрутки */
     height: 600px; 
@@ -43,25 +45,34 @@ body {
     padding-right: 15px;
     text-align: justify;
     position:absolute;
-    left:600px;
-    top:135px;
+    right:150px;
+    top:170px;
+    border-radius: 30px;
 }
 #list {
     background-color: orange;
     padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 200px;
+    position:absolute;
+    left:150px;
+    top:170px;
+    border-radius: 30px;
+    
 }
 
 
 #box1, #box2, #box3 {
     width:160px;
     text-align: center;
+    border-radius: 30px;
 }
 
 #box1{
     background-color: red;
     position:absolute;
-    left:190px;
+    left:200px;
     bottom: 100px;
 }
 
@@ -75,7 +86,7 @@ body {
 #box3{
     background-color: green;
     position:absolute;
-    left:990px;
+    right:200px;
     bottom: 100px;
 }
   
@@ -92,4 +103,10 @@ body {
     left:83px;
     font-size: 11pt;
     padding-top: 5px;
+}
+a[href^="http"]{
+    color: blue;
+}
+a:visited {
+    color: red;
 }

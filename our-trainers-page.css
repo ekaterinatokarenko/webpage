@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; /* Добавляем полосы прокрутки */
-    height: 700px; 
+    height: 600px; 
     max-width: 1200px;
     margin: 0 auto; 
 }
@@ -46,7 +46,7 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 18px;
+    padding-bottom: 3px;
     text-align: justify;
     position:absolute;
     right:150px;
@@ -64,16 +64,16 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 45px;
     text-align: justify;
     position:absolute;
-    left:320px;
+    left:310px;
     top:120px;
 }
 #Mary {
     position:absolute;
     right:385px;
-    top:400px;
+    top:375px;
 }
 #information-about-Mary {
     background-color: pink;
@@ -82,16 +82,16 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 81px;
+    padding-bottom: 66px;
     text-align: justify;
     position:absolute;
     right:150px;
-    top:400px;
+    top:375px;
 }
 #Billy {
     position:absolute;
     left:150px;
-    top:400px; 
+    top:375px; 
 }
 #information-about-Billy {
    background-color: yellow;
@@ -100,9 +100,29 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 81px;
+    padding-bottom: 66px;
     text-align: justify;
     position:absolute;
-    left:320px;
-    top:400px; 
+    left:310px;
+    top:375px; 
 }
+a[href^="http"]{
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+#footer {
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: block;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 0px;
+    width: 1185px;
+    left:83px;
+    font-size: 11pt;
+    padding-top: 5px;
+}
+
