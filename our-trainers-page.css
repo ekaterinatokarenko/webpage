@@ -3,33 +3,106 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(home-page-background.jpg);
+    background-image: url(our-trainers-page-background.jpg);
+    background-size:  1200px 800px;
     background-position: center 50%;
     background-repeat: no-repeat;
+    background-color: #c7b39b;
+    overflow: auto; /* Добавляем полосы прокрутки */
+    height: 700px; 
     max-width: 1200px;
     margin: 0 auto; 
 }
-.information-about-James {
+#header {
+    width: 1180px;
+    height: 40px;
+    background: yellow url(logo.png) no-repeat 1% 50%;
+    padding-top: 10px;
+    background-size: 70px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14pt;
+    }
+
+#h1 {
+    color: black;
+    background-color: orange;
+    display: block;
+    text-align: center;
+    width: 1200px;
+    font-size: 10pt;
+}
+
+
+#James {
+    position:absolute;
+    right:385px;
+    top:120px;
+}
+#information-about-James {
     background-color: yellow;
-    width: 500px;
-    height: auto;
-    float: left;
+    width: 205px;
+    color: black;
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 18px;
+    text-align: justify;
+    position:absolute;
+    right:150px;
+    top:120px;
 }
-.information-about-Anna {
+#Anna {
+    position:absolute;
+    left:150px;
+    top:120px;
+}
+#information-about-Anna {
     background-color: pink;
-    width: 500px;
-    height: auto;
-    float: left;
+    width: 205px;
+    color: black;
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    text-align: justify;
+    position:absolute;
+    left:320px;
+    top:120px;
 }
-.information-about-Mary {
+#Mary {
+    position:absolute;
+    right:385px;
+    top:400px;
+}
+#information-about-Mary {
     background-color: pink;
-    width: 500px;
-    height: auto;
-    float: left;
+    width: 205px;
+    color: black;
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 81px;
+    text-align: justify;
+    position:absolute;
+    right:150px;
+    top:400px;
 }
-.information-about-Billy {
-    background-color: yellow;
-    width: 500px;
-    height: auto;
-    float: left;
+#Billy {
+    position:absolute;
+    left:150px;
+    top:400px; 
+}
+#information-about-Billy {
+   background-color: yellow;
+    width: 205px;
+    color: black;
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 81px;
+    text-align: justify;
+    position:absolute;
+    left:320px;
+    top:400px; 
 }

@@ -24,7 +24,6 @@ body {
     padding-right: 20px;
     font-size: 14pt;
     }
-
 #h1 {
     color: black;
     background-color: orange;
@@ -33,71 +32,32 @@ body {
     width: 1200px;
     font-size: 10pt;
 }
-#infant {
+#facebook-label {
     position:absolute;
-    left:150px;
-    top:140px;
+    left:250px;
+    bottom:50px;
 }
-#awareness-for-infants {
+#facebook-link {
     color: black;
     display: block; 
     position:absolute;
-    left:190px;
-    top:130px;
+    left:320px;
+    bottom:70px;  
 }
-#preschooler {
+#you-tube-label {
     position:absolute;
-    left:150px;
-    top:400px; 
+    left:855px;
+    bottom:40px;
 }
-#swim-for-preschoolers {
+#you-tube-link {
     color: black;
     display: block; 
     position:absolute;
-    left:200px;
-    top:380px;
+    right:250px;
+    bottom:70px; 
 }
-#school-age-child {
-    position:absolute;
-    right:150px;
-    top:140px;
-}
-#swim-for-school-age-children {
-     color: black;
-    display: block; 
-    position:absolute;
-    right:160px;
-    top:130px;
-}
-#teenager {
-     position:absolute;
-    right:150px;
-    top:400px; 
-}
-#sweem-for-teenagers {
-    color: black;
-    display: block; 
-    position:absolute;
-    right:200px;
-    top:380px;
-}
-#adult {
-    position:absolute;
-    right:500px;
-    bottom:20px; 
-}
-#private-classes {
-   color: black;
-    display: block; 
-    position:absolute;
-    right: 550px;
-    bottom: 220px; 
-}
-#logo {
-   position:absolute;
-    right:520px;
-    top:140px;  
-}
+
+  
 #footer {
     height: 25px;
     color: black;
@@ -111,13 +71,6 @@ body {
     font-size: 11pt;
     padding-top: 5px;
 }
-
-
-
-
-
-
-
 
 
 
