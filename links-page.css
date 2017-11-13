@@ -5,6 +5,8 @@
 body {
     background-image: url(programs&activities-page-background.jpg);
     background-size:  1200px 800px;
+    opacity: 0.9;
+    z-index: -1;
     background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
@@ -17,7 +19,7 @@ body {
 #header {
     width: 1180px;
     height: 40px;
-    background: yellow url(logo.png) no-repeat 1% 50%;
+    background: #46ead9 url(logo.png) no-repeat 1% 50%;
     padding-top: 10px;
     background-size: 70px;
     text-align: right;
@@ -26,7 +28,7 @@ body {
     }
 #h1 {
     color: black;
-    background-color: orange;
+    background-color: #46ead9;
     display: block;
     text-align: center;
     width: 1200px;
@@ -43,10 +45,11 @@ body {
     position:absolute;
     left:320px;
     bottom:70px;  
+    font-size: 14pt;
 }
 #you-tube-label {
     position:absolute;
-    left:855px;
+    left:825px;
     bottom:40px;
 }
 #you-tube-link {
@@ -55,12 +58,23 @@ body {
     position:absolute;
     right:250px;
     bottom:70px; 
+    font-size: 14pt;
+}
+a {
+    color: black;
 }
 a[href^="http"]{
     color: blue;
 }
 a:visited {
-    color: red;
+    color: brown;
+}
+#container {
+    position: absolute;
+    bottom:0;
+    right: 15px;
+    font-size: 12pt;
+    padding-bottom: 5px;
 }
 #footer {
     height: 25px;

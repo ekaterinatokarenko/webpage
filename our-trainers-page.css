@@ -16,7 +16,9 @@ body {
 #header {
     width: 1180px;
     height: 40px;
-    background: yellow url(logo.png) no-repeat 1% 50%;
+    background: #5ccce8 url(logo.png) no-repeat 1% 50%;
+    opacity: 0.9;
+    z-index: -1;
     padding-top: 10px;
     background-size: 70px;
     text-align: right;
@@ -26,7 +28,9 @@ body {
 
 #h1 {
     color: black;
-    background-color: orange;
+    background-color: #5ccce8;
+    opacity: 0.8;
+    z-index: -1;
     display: block;
     text-align: center;
     width: 1200px;
@@ -41,6 +45,8 @@ body {
 }
 #information-about-James {
     background-color: yellow;
+    opacity: 0.8;
+    z-index: -1;
     width: 205px;
     color: black;
     display: block; 
@@ -52,24 +58,6 @@ body {
     right:150px;
     top:120px;
 }
-#Anna {
-    position:absolute;
-    left:150px;
-    top:120px;
-}
-#information-about-Anna {
-    background-color: pink;
-    width: 205px;
-    color: black;
-    display: block; 
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 45px;
-    text-align: justify;
-    position:absolute;
-    left:310px;
-    top:120px;
-}
 #Mary {
     position:absolute;
     right:385px;
@@ -77,6 +65,8 @@ body {
 }
 #information-about-Mary {
     background-color: pink;
+    opacity: 0.8;
+    z-index: -1;
     width: 205px;
     color: black;
     display: block; 
@@ -88,6 +78,27 @@ body {
     right:150px;
     top:375px;
 }
+#Anna {
+    position:absolute;
+    left:150px;
+    top:120px;
+}
+#information-about-Anna {
+    background-color: pink;
+    opacity: 0.8;
+    z-index: -1;
+    width: 205px;
+    color: black;
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+    text-align: justify;
+    position:absolute;
+    left:310px;
+    top:120px;
+}
+
 #Billy {
     position:absolute;
     left:150px;
@@ -95,6 +106,8 @@ body {
 }
 #information-about-Billy {
    background-color: yellow;
+   opacity: 0.8;
+    z-index: -1;
     width: 205px;
     color: black;
     display: block; 
@@ -106,11 +119,21 @@ body {
     left:310px;
     top:375px; 
 }
+a {
+    color: black;
+}
 a[href^="http"]{
     color: blue;
 }
 a:visited {
-    color: red;
+    color: brown;
+}
+#container {
+    position: absolute;
+    bottom:0;
+    right: 15px;
+    font-size: 12pt;
+    padding-bottom: 5px;
 }
 #footer {
     height: 25px;
