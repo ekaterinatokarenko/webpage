@@ -11,11 +11,11 @@ body {
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
-    height: 600px; 
+    height: 700px;
     max-width: 1200px;
     margin: 0 auto; 
 }
-#header {
+#main {
     width: 1180px;
     height: 40px;
     background: #50cdff url(logo.png) no-repeat 1% 50%;
@@ -33,81 +33,65 @@ body {
     width: 1200px;
     font-size: 10pt;
 }
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
 #section {
-    right: 0px;
     width: 450px;
     color: black;
     background-color: white;
-    display: block; 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 14px 0px 15px;
     text-align: justify;
-    position:absolute;
-    right:150px;
-    top:170px;
     border-radius: 30px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 120px;
 }
 #list {
+    color:black;
     background-color: white;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 200px;
-    position:absolute;
-    left:150px;
-    top:170px;
+    width: 240px;
     border-radius: 30px;
+    margin-left: 65px;
+    margin-right: 320px;
+    margin-bottom: 180px;
+    margin-top: 40px;
+    padding: 15px 15px 0px 15px;
 }
 #box1, #box2, #box3 {
     width:160px;
+    height: 120px;
     text-align: center;
     border-radius: 30px;
+    margin-bottom: 137px;
 }
 #box1{
     background-color: #ff4612;
-    position:absolute;
-    left:200px;
-    bottom: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
 }
 #box2{
     background-color: #f5fe01;
-    position:absolute;
-    left:590px;
-    bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #box3{
     background-color: #11d51b;
-    position:absolute;
-    right:200px;
-    bottom: 100px;
-}
-a {
-    color: black;
-}
-a[href^="http"]{
-    color: blue;
-}
-a:visited {
-    color: brown;
+    
+    margin-left: 100px;
 }
 #container {
-    position: absolute;
-    bottom:0;
-    right: 15px;
-    font-size: 12pt;
-    padding-bottom: 5px;
+    margin-left: 1120px;
+    margin-bottom: -25px;
 }
 #footer {
     height: 25px;
     color: black;
     background-color: white;
     display: block;
-    padding-left: 15px;
-    position: absolute;
-    bottom: 0px;
-    width: 1185px;
-    left:83px;
+    width: 1190px;
     font-size: 11pt;
     padding-top: 5px;
+    padding-left: 10px;
 }
-
