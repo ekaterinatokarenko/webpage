@@ -3,22 +3,23 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(programs&activities-page-background.jpg);
+    background-image: url(home-page-background.jpg);
     background-size:  1200px 800px;
-    opacity: 0.9;
-    z-index: -1;
-    background-position: center 50%;
+       background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
-    height: 600px; 
+    height: 700px;
     max-width: 1200px;
     margin: 0 auto; 
 }
-#header {
+#main {
+  
     width: 1180px;
     height: 40px;
-    background: #46ead9 url(logo.png) no-repeat 1% 50%;
+    background: #50cdff url(logo.png) no-repeat 1% 50%;
+    opacity: 0.9;
+    z-index: -1;
     padding-top: 10px;
     background-size: 70px;
     text-align: right;
@@ -27,37 +28,55 @@ body {
 }
 #h1 {
     color: black;
-    background-color: #46ead9;
+    background-color: #50cdff;
+    opacity: 0.9;
+    z-index: -1;
     display: block;
     text-align: center;
     width: 1200px;
     font-size: 10pt;
 }
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
 #facebook-label {
-    position:absolute;
-    left:250px;
-    bottom:50px;
+    margin-left: 180px;
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
 #facebook-link {
     color: black;
-    display: block; 
-    position:absolute;
-    left:320px;
-    bottom:70px;  
+    display: block;
+      background-color: #50cdff;
+      opacity: 0.9;
+    z-index: -1;
+      padding: 10px;
+      border-radius: 10px;
     font-size: 14pt;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 220px;
+    margin-top: 85px;
+    margin-bottom: 100px;
 }
 #you-tube-label {
-    position:absolute;
-    left:825px;
-    bottom:40px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
 #you-tube-link {
-    color: black;
+  color: black;
     display: block; 
-    position:absolute;
-    right:250px;
-    bottom:70px; 
+    background-color: #50cdff;
+    opacity: 0.9;
+    z-index: -1;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 14pt;
+     font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 a {
     color: black;
@@ -69,26 +88,19 @@ a:visited {
     color: brown;
 }
 #container {
-    position: absolute;
-    bottom:0;
-    right: 15px;
-    font-size: 12pt;
-    padding-bottom: 5px;
+    margin-left: 1120px;
+    margin-bottom: -25px;
 }
 #footer {
     height: 25px;
     color: black;
     background-color: white;
     display: block;
-    padding-left: 15px;
-    position: absolute;
-    bottom: 0px;
-    width: 1185px;
-    left:83px;
+    width: 1190px;
     font-size: 11pt;
     padding-top: 5px;
+    padding-left: 10px;
 }
-
 
 
 

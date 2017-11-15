@@ -3,22 +3,23 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(programs&activities-page-background.jpg);
+    background-image: url(links-page-background.jpg);
     background-size:  1200px 800px;
-    opacity: 0.9;
-    z-index: -1;
+    
     background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
-    height: 600px; 
+    height: 700px;
     max-width: 1200px;
     margin: 0 auto; 
 }
-#header {
+#main {
     width: 1180px;
     height: 40px;
-    background: #46ead9 url(logo.png) no-repeat 1% 50%;
+    background: #50cdff url(logo.png) no-repeat 1% 50%;
+     opacity: 0.8;
+    z-index: -1;
     padding-top: 10px;
     background-size: 70px;
     text-align: right;
@@ -27,20 +28,30 @@ body {
 }
 #h1 {
     color: black;
-    background-color: #46ead9;
+    background-color: #50cdff;
+     opacity: 0.8;
+    z-index: -1;
     display: block;
     text-align: center;
     width: 1200px;
     font-size: 10pt;
 }
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
 #nav {
-    position:absolute;
-    left:150px;
+    margin-top: 30px;
+margin-left: 70px;
+margin-right: 800px;
+   
     bottom: 50px;
 }
 #map {
-    position:absolute;
-    right:150px;
+    margin-top: 30px;
+    margin-left: 750px;
+    margin-bottom: 400px;
+    margin-top: 50px;
     bottom: 40px;
 }
 a {
@@ -53,27 +64,20 @@ a:visited {
     color: brown;
 }
 #container {
-    position: absolute;
-    bottom:0;
-    right: 15px;
-    font-size: 12pt;
-    padding-bottom: 5px;
+    margin-left: 1120px;
+    margin-bottom: -25px;
 }
 #footer {
     height: 25px;
     color: black;
     background-color: white;
     display: block;
-    padding-left: 15px;
-    position: absolute;
-    bottom: 0px;
-    width: 1185px;
-    left:83px;
+    width: 1190px;
     font-size: 11pt;
     padding-top: 5px;
+    padding-left: 10px;
+   
 }
-
-
 
 
 

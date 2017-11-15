@@ -5,20 +5,21 @@
 body {
     background-image: url(programs&activities-page-background.jpg);
     background-size:  1200px 800px;
-    opacity: 0.9;
-    z-index: -1;
+    
     background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
-    height: 600px; 
+    height: 700px;
     max-width: 1200px;
     margin: 0 auto; 
 }
-#header {
+#main {
     width: 1180px;
     height: 40px;
-    background:  #46ead9 url(logo.png) no-repeat 1% 50%;
+    background: #50cdff url(logo.png) no-repeat 1% 50%;
+     opacity: 0.8;
+    z-index: -1;
     padding-top: 10px;
     background-size: 70px;
     text-align: right;
@@ -27,66 +28,71 @@ body {
 }
 #h1 {
     color: black;
-    background-color: #46ead9;
+    background-color: #50cdff;
+     opacity: 0.8;
+    z-index: -1;
     display: block;
     text-align: center;
     width: 1200px;
     font-size: 10pt;
 }
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
 #infant {
-    position:absolute;
-    left:150px;
-    top:140px;
+
+    
 }
 #awareness-for-infants {
     color: black;
     display: block; 
-    position:absolute;
+
     left:170px;
     top:120px;
     font-size: 14.5pt;
 }
 #preschooler {
-    position:absolute;
+    
     left:150px;
     top:400px; 
 }
 #swim-for-preschoolers {
     color: black;
     display: block; 
-    position:absolute;
+
     left:120px;
     top:380px;
     font-size: 14.5pt;
 }
 #school-age-child {
-    position:absolute;
+
     right:150px;
     top:140px;
 }
 #swim-for-school-age-children {
     color: black;
     display: block; 
-    position:absolute;
+
     right:100px;
     top:120px;
     font-size: 14.5pt;
 }
 #teenager {
-     position:absolute;
+    
     right:150px;
     top:400px; 
 }
 #sweem-for-teenagers {
     color: black;
     display: block; 
-    position:absolute;
+
     right:140px;
     top:380px;
     font-size: 14.5pt;
 }
 #adult {
-    position:absolute;
+    
     right:535px;
     bottom:20px; 
     
@@ -94,13 +100,13 @@ body {
 #private-classes {
    color: black;
     display: block; 
-    position:absolute;
+
     right: 600px;
     bottom: 210px;
     font-size: 14.5pt;
 }
 #logo {
-   position:absolute;
+   
     right:560px;
     top:140px;  
     opacity: 0.8;
@@ -134,16 +140,3 @@ a:visited {
     font-size: 11pt;
     padding-top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
