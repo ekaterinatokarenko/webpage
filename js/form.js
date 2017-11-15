@@ -13,8 +13,8 @@ function sendForm(e) {
         method: "POST",
         data: {
             name: $('#name').val(),
-            email address: $('#email').val(),
-            phone number: $('#phone').val(),
+            email: $('#email').val(),
+            phoneNumber: $('#phone').val(),
             comment: $('#comment').val()
         },
         dataType: "json"
