@@ -5,8 +5,7 @@
 body {
     background-image: url(programs&activities-page-background.jpg);
     background-size:  1200px 800px;
-    
-    background-position: center 50%;
+       background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
@@ -15,10 +14,11 @@ body {
     margin: 0 auto; 
 }
 #main {
+  
     width: 1180px;
     height: 40px;
     background: #50cdff url(logo.png) no-repeat 1% 50%;
-     opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
     padding-top: 10px;
     background-size: 70px;
@@ -29,7 +29,7 @@ body {
 #h1 {
     color: black;
     background-color: #50cdff;
-     opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
     display: block;
     text-align: center;
@@ -42,73 +42,53 @@ body {
 }
 #infant {
 
-    
-}
-#awareness-for-infants {
-    color: black;
-    display: block; 
-
-    left:170px;
-    top:120px;
+   margin-left: 50px;
+   margin-right: 120px;
     font-size: 14.5pt;
+    margin-bottom: 1px;
+     text-align: center;
 }
+
 #preschooler {
-    
-    left:150px;
-    top:400px; 
-}
-#swim-for-preschoolers {
-    color: black;
-    display: block; 
-
-    left:120px;
-    top:380px;
+  
     font-size: 14.5pt;
+     text-align: center;
+   
+  
 }
+
+
 #school-age-child {
-
-    right:150px;
-    top:140px;
-}
-#swim-for-school-age-children {
-    color: black;
-    display: block; 
-
-    right:100px;
-    top:120px;
+      margin-left: 50px;
+   margin-right: 105px;
     font-size: 14.5pt;
+     text-align: center;
+  
+   
 }
+
 #teenager {
     
-    right:150px;
-    top:400px; 
-}
-#sweem-for-teenagers {
-    color: black;
-    display: block; 
-
-    right:140px;
-    top:380px;
+ margin-top: 10px;
     font-size: 14.5pt;
+     text-align: center;
+
 }
+
 #adult {
-    
-    right:535px;
-    bottom:20px; 
+    font-size: 14.5pt; 
+    margin-right: 90px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+     text-align: center;
+     
     
 }
-#private-classes {
-   color: black;
-    display: block; 
 
-    right: 600px;
-    bottom: 210px;
-    font-size: 14.5pt;
-}
 #logo {
    
-    right:560px;
-    top:140px;  
+margin-right: 110px;
+margin-bottom: 20px;
     opacity: 0.8;
 }
 a {
@@ -121,22 +101,17 @@ a:visited {
     color: brown;
 }
 #container {
-    position: absolute;
-    bottom:0;
-    right: 15px;
-    font-size: 12pt;
-    padding-bottom: 5px;
+    margin-left: 1120px;
+    margin-bottom: -25px;
 }
 #footer {
     height: 25px;
     color: black;
     background-color: white;
     display: block;
-    padding-left: 15px;
-    position: absolute;
-    bottom: 0px;
-    width: 1185px;
-    left:83px;
+    width: 1190px;
     font-size: 11pt;
     padding-top: 5px;
+    padding-left: 10px;
 }
+
