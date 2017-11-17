@@ -5,7 +5,7 @@
 body {
     background-image: url(links-page-background.jpg);
     background-size:  1200px 800px;
-       background-position: center 50%;
+    background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
@@ -14,7 +14,6 @@ body {
     margin: 0 auto; 
 }
 #main {
-  
     width: 1180px;
     height: 40px;
     background: #50cdff url(logo.png) no-repeat 1% 50%;
@@ -48,17 +47,15 @@ body {
 #facebook-link {
     color: black;
     display: block;
-      background-color: #50cdff;
-      opacity: 0.9;
-    z-index: -1;
-      padding: 10px;
-      border-radius: 10px;
+    background-color: #50cdff;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 14pt;
     font-weight: 600;
     margin-left: 20px;
     margin-right: 220px;
     margin-top: 85px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 #you-tube-label {
     margin-right: 20px;
@@ -66,17 +63,15 @@ body {
     margin-bottom: 70px;
 }
 #you-tube-link {
-  color: black;
+    color: black;
     display: block; 
     background-color: #50cdff;
-    opacity: 0.9;
-    z-index: -1;
     padding: 10px;
     border-radius: 10px;
     font-size: 14pt;
-     font-weight: 600;
+    font-weight: 600;
     margin-top: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 a {
     color: black;

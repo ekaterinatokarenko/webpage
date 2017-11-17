@@ -5,7 +5,6 @@
 body {
     background-image: url(our-trainers-page-background.jpg);
     background-size:  1200px 800px;
-    
     background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
@@ -18,7 +17,7 @@ body {
     width: 1180px;
     height: 40px;
     background: #50cdff url(logo.png) no-repeat 1% 50%;
-     opacity: 0.8;
+    opacity: 0.8;
     z-index: -1;
     padding-top: 10px;
     background-size: 70px;
@@ -29,7 +28,7 @@ body {
 #h1 {
     color: black;
     background-color: #50cdff;
-     opacity: 0.8;
+    opacity: 0.8;
     z-index: -1;
     display: block;
     text-align: center;
@@ -41,11 +40,8 @@ body {
     flex-wrap: wrap;
 }
 #James {
- margin-left: 70px;
- margin-bottom: 20px;
- 
-   
-   
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 #information-about-James {
     background-color: yellow;
@@ -58,13 +54,9 @@ body {
     padding-right: 15px;
      margin-bottom: 23px;
     text-align: justify;
-
-   
 }
 #Mary {
-    
- margin-left: 70px;
-   margin-bottom: 37px;
+    margin-left: 70px;
 }
 #information-about-Mary {
     background-color: pink;
@@ -75,11 +67,8 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 66px;
-  
+    padding-bottom: 0px;
     text-align: justify;
-
-   
 }
 #Anna {
     margin-left: 225px;
@@ -94,29 +83,23 @@ body {
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-   margin-bottom: 23px;
+    margin-bottom: 23px;
     text-align: justify;
-
-   
 }
 #Billy {
-
      margin-left: 225px;
-     margin-bottom: 37px;
-     
 }
 #information-about-Billy {
-   background-color: yellow;
-   opacity: 0.8;
+    background-color: yellow;
+    opacity: 0.8;
     z-index: -1;
     width: 205px;
     color: black;
     display: block; 
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     text-align: justify;
-
 }
 a {
     color: black;
@@ -129,9 +112,10 @@ a:visited {
 }
 #container {
     margin-left: 1120px;
-    margin-bottom: -25px;
+    margin-top: 35px;
 }
 #footer {
+    margin-top: -22px;
     height: 25px;
     color: black;
     background-color: white;
@@ -140,6 +124,4 @@ a:visited {
     font-size: 11pt;
     padding-top: 5px;
     padding-left: 10px;
-    
-   
 }

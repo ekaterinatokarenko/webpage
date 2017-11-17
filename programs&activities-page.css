@@ -5,7 +5,7 @@
 body {
     background-image: url(programs&activities-page-background.jpg);
     background-size:  1200px 800px;
-       background-position: center 50%;
+    background-position: center 50%;
     background-repeat: no-repeat;
     background-color: #c7b39b;
     overflow: auto; 
@@ -14,7 +14,6 @@ body {
     margin: 0 auto; 
 }
 #main {
-  
     width: 1180px;
     height: 40px;
     background: #50cdff url(logo.png) no-repeat 1% 50%;
@@ -41,54 +40,37 @@ body {
     flex-wrap: wrap;
 }
 #infant {
-
-   margin-left: 50px;
-   margin-right: 120px;
+    margin-left: 50px;
+    margin-right: 120px;
     font-size: 14.5pt;
     margin-bottom: 1px;
-     text-align: center;
+    text-align: center;
 }
-
 #preschooler {
-  
     font-size: 14.5pt;
-     text-align: center;
-   
-  
+    text-align: center;
 }
-
-
 #school-age-child {
-      margin-left: 50px;
-   margin-right: 105px;
+    margin-left: 50px;
+    margin-right: 105px;
     font-size: 14.5pt;
-     text-align: center;
-  
-   
+    text-align: center;
 }
-
 #teenager {
-    
- margin-top: 10px;
+    margin-top: 10px;
     font-size: 14.5pt;
-     text-align: center;
-
+    text-align: center;
 }
-
 #adult {
     font-size: 14.5pt; 
     margin-right: 90px;
     margin-top: 80px;
     margin-bottom: 10px;
-     text-align: center;
-     
-    
+    text-align: center;
 }
-
 #logo {
-   
-margin-right: 110px;
-margin-bottom: 20px;
+    margin-right: 110px;
+    margin-bottom: 20px;
     opacity: 0.8;
 }
 a {
