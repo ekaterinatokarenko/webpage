@@ -39,6 +39,10 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+p{
+    font-weight:bold;
+    font-style: italic;
+}
 #James {
     margin-left: 70px;
     margin-bottom: 20px;
