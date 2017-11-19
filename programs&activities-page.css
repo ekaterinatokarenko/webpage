@@ -96,4 +96,82 @@ a:visited {
     padding-top: 5px;
     padding-left: 10px;
 }
+@media (max-width: 414px) {
+body {
+    background-size:  414px 2600px;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    overflow: auto; 
+    max-width: 414px;
+    margin: 0 auto; 
+}
+#main {
+    width: 364px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-size: 0px;
+    text-align: justify;
+    height: 70px;
+    padding-right: 30px;
+    font-size: 15pt;
+}
+#h1 {
+    display: block;
+    text-align: center;
+    width: 414px;
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13pt;
+}
+#infant {
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+#preschooler {
+    margin-left: 30px;
+    margin-top: 1px;
+}
+#school-age-child {
+    margin-left: 60px;
+    margin-right: 105px;
+    margin-top: 40px;
+   
+}
+#teenager {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  
+}
+#adult {
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#logo {
+   width: 10px;
+   height: 10px;
+    margin-right: 110px;
+    margin-bottom: 20px;
+    opacity: 0.1;
+}
+#container {
+    margin-left: 185px;
+    margin-bottom: -65px;
+}
+#footer {
+    height: 60px;
+    display: block;
+    width: 404px;
+    font-size: 12pt;
+    padding-top: 5px;
+    text-align: center;
+}
+}
 

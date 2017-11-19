@@ -83,6 +83,73 @@ a:visited {
     padding-top: 5px;
     padding-left: 10px;
 }
+@media (max-width: 414px) {
+body {
+    background-size:  414px 3600px;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    overflow: auto; 
+    max-width: 414px;
+    margin: 0 auto; 
+}
+#main {
+    width: 364px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-size: 0px;
+    text-align: justify;
+    height: 70px;
+    padding-right: 30px;
+    font-size: 15pt;
+}
+#h1 {
+    display: block;
+    text-align: center;
+    width: 414px;
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13pt;
+}
+#nav {
+    font-size: 14pt;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 100px;
+    bottom: 50px;
+}
+#map {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    bottom: 40px;
+    font-size: 14pt;
+    text-align: center;
+}
+#msg {
+    margin-left: 60px; 
+    margin-bottom: 35px;
+    font-size: 14pt;
+    padding: 10px;
+    color: red;
+}
+#container {
+    margin-left: 185px;
+    margin-bottom: -65px;
+}
+#footer {
+    height: 60px;
+    display: block;
+    width: 404px;
+    font-size: 12pt;
+    padding-top: 5px;
+    text-align: center;
+}
+}
 
 
 

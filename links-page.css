@@ -96,6 +96,70 @@ a:visited {
     padding-top: 5px;
     padding-left: 10px;
 }
+@media (max-width: 414px) {
+body {
+    background-size:  414px 3600px;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    overflow: auto; 
+    max-width: 414px;
+    margin: 0 auto; 
+}
+#main {
+    width: 364px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-size: 0px;
+    text-align: justify;
+    height: 70px;
+    padding-right: 30px;
+    font-size: 15pt;
+}
+#h1 {
+    display: block;
+    text-align: center;
+    width: 414px;
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13pt;
+}
+#facebook-label {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20;
+}
+#facebook-link {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+}
+#you-tube-label {
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+#you-tube-link {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+#container {
+    margin-left: 185px;
+    margin-bottom: -65px;
+}
+#footer {
+    height: 60px;
+    display: block;
+    width: 404px;
+    font-size: 12pt;
+    padding-top: 5px;
+    text-align: center;
+}
+}
 
 
 
