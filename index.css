@@ -3,7 +3,7 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(home-page-background.jpg);
+    background-image: url(img/home-page-background.jpg);
     background-size:  1200px 800px;
     opacity: 0.9;
     z-index: -1;

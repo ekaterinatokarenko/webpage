@@ -3,7 +3,7 @@
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url(our-trainers-page-background.jpg);
+    background-image: url(img/our-trainers-page-background.jpg);
     background-size:  1200px 800px;
     background-position: center 50%;
     background-repeat: no-repeat;
@@ -163,41 +163,31 @@ body {
 }
 #James {
     margin-left: 120px;
-
 }
 #information-about-James {
     width: 400px;
-   
 }
 #Mary {
     margin-left: 120px;
     margin-bottom: 20px;
 }
 #information-about-Mary {
-   
     width: 400px;
     margin-bottom: 20px;
-    
 }
 #Anna {
     margin-left: 110px;
-
 }
 #information-about-Anna {
-   
     width: 400px;
-
-
 }
 #Billy {
      margin-left: 110px;
      margin-bottom: 20px;
 }
 #information-about-Billy {
-   
     width: 400px;
     margin-bottom: 30px;
- 
 }
 #container {
     margin-left: 185px;
